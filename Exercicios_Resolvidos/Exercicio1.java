@@ -1,3 +1,5 @@
+package Exercicios_Resolvidos;
+
 import java.util.Scanner;
 import java.util.Locale;
 
@@ -5,8 +7,8 @@ public class Exercicio1 {
 
 	public static void main(String[] args) {
 		/*
-		  Exercio de Fixacao
-		  
+		 * Exercio de Fixacao
+		 * 
 		 */
 
 		Scanner sc = new Scanner(System.in);

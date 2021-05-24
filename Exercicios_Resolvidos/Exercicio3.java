@@ -1,3 +1,5 @@
+package Exercicios_Resolvidos;
+
 import java.util.Scanner;
 import java.util.Locale;
 

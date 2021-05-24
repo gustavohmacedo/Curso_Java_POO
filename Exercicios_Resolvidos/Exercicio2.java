@@ -1,3 +1,5 @@
+package Exercicios_Resolvidos;
+
 import java.util.Scanner;
 
 public class Exercicio2 {
