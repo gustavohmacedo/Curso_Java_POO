@@ -1,16 +1,16 @@
-package exercicios_resolvidos.estrutura_sequencial;
+package secao_1_Estrutura_Sequencial;
 
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Exercicio5 {
+public class Exercicio4 {
     public static void main(String[] args) {
-        /*
-         * Fazer um programa que leia o número de um funcionário, a quantidade de horas
-         * trabalhadas no mês, o valor que recebe por hora e calcular o salário desse
-         * funcionário. A seguir, mostre o número e o salário do funcionário, com duas
-         * casas decimais.
-         */
+/*
+          Fazer um programa que leia o número de um funcionário, a quantidade de horas
+          trabalhadas no mês, o valor que recebe por hora e calcular o salário desse
+          funcionário. A seguir, mostre o número e o salário do funcionário, com duas
+          casas decimais.
+*/
 
         int numeroDoFuncionario = 0;
         int qtdDeHorasTrabalhadas = 0;

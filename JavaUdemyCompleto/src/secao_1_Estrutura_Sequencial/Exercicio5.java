@@ -1,17 +1,14 @@
-package exercicios_resolvidos.estrutura_sequencial;
+package secao_1_Estrutura_Sequencial;
 
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Exercicio6 {
+public class Exercicio5 {
     public static void main(String[] args) {
 
-        /*
-         * Fazer um programa para ler o código, a quantidade comprada, e o valor
-         * unitário da peça 1 e da peça 2. Em seguida, mostre o código das peças, a
-         * quantidade e Calcule o valor total a ser pago por estas peças.
-         * 
-         */
+       /* Fazer um programa para ler o código, a quantidade comprada, e o valor
+          unitário da peça 1 e da peça 2. Em seguida, mostre o código das peças, a
+          quantidade e Calcule o valor total a ser pago por estas peças.*/
 
         Locale.setDefault(Locale.US);
         Scanner leitor = new Scanner(System.in);

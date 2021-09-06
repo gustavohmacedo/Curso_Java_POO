@@ -1,15 +1,13 @@
-package exercicios_resolvidos.estrutura_sequencial;
+package secao_1_Estrutura_Sequencial;
 
 import java.util.Scanner;
 
-public class Exercicio4 {
+public class Exercicio3 {
     public static void main(String[] args) {
 
-        /*
-         * EXERCÍCIO 4: Fazer um programa para ler quatro valores inteiros A, B, C e D.
-         * A seguir, calcule e mostre a diferença do produto de A e B pelo produto de C
-         * e D segundo a fórmula: DIFERENCA = (A * B - C * D).
-         */
+        /* EXERCÍCIO 3: Fazer um programa para ler quatro valores inteiros A, B, C e D.
+          A seguir, calcule e mostre a diferença do produto de A e B pelo produto de C
+          e D segundo a fórmula: DIFERENCA = (A * B - C * D).*/
 
         int a, b, c, d;
         int ResultDiferenca;
