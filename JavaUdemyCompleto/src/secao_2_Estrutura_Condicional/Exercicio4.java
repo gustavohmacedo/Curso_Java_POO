@@ -8,13 +8,24 @@ public class Exercicio4 {
         começar em um dia e terminar em outro, tendo uma duração mínima de 1 hora e máxima de 24 horas.*/
 
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Entre com a hora inicial: ");
-        int horaInicial = scanner.nextInt();
+        int horaInicial, horaFinal, duracaoDoJogo;
+        final int RELOGIO = 24;
 
-        System.out.println("Entre com a hora final: ");
-        int horaFinal = scanner.nextInt();
+        System.out.println();
+        System.out.println("Entre com a hora inicial do Jogo: ");
+        horaInicial = scanner.nextInt();
 
-        System.out.println("O jogo durou " + " hora(s) ");
+        System.out.println("Entre com a hora final do Jogo: ");
+        horaFinal = scanner.nextInt();
+
+        if (horaInicial >= horaFinal) {
+            duracaoDoJogo = (RELOGIO - horaInicial) + horaFinal;
+            System.out.println("\nO jogo durou " + duracaoDoJogo + " hora(s) ");
+
+        } else {
+            duracaoDoJogo = horaFinal - horaInicial;
+            System.out.println("\nO jogo durou " + duracaoDoJogo + " hora(s) ");
+        }
 
 
         scanner.close();
